@@ -1,0 +1,173 @@
+body {
+  /* This is the CSS for body */
+  position: relative;
+  min-width: 900px;
+  /*overflow: hidden;  Overflow set to hidden. Any elements outside of the window will not be shown */
+  height: 100%; /* Height set to 100% means the body will extend from the top of the window to the bottom */
+  max-height: 100%; /* Maximum height is limited to 100% */
+  line-height: 1.5em; /* Line spacing is set to 1.5em */
+
+  background: url(./images/2018-12-03-11-52-02-1200x800.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-size:20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.links {
+  background-color: rgba(44, 212, 235, 0.9);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin-top: 0;
+  width: 100%-30px;
+  padding: 30px;
+  display: flex;
+  text-decoration: none;
+}
+.links h1 {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link,
+a:visited {
+  border: 2px solid rgb(29, 23, 19);
+  background-color: rgb(48, 73, 185);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(79, 117, 87);
+}
+
+.toggleBox {
+  float: center;
+  width: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.loginLaatikko {
+  float: grid;
+  color: #fff;
+  border: 5px solid rgba(46, 85, 57);
+  background-color: rgba(103, 188, 221, 0.8);
+  margin-bottom: 30px;
+  width: 180px;
+  padding: 20px;
+  border-radius: 1em;
+  padding-bottom: 40px;
+}
+
+.newSighting {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 180px;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  border: 5px solid rgba(46, 85, 57);
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+.lintutaulu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 365px);
+}
+.lintuOtsikko {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.lintu {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: fit-content;
+  padding: 20px;
+  margin-bottom: -30px;
+  border: 5px solid rgba(46, 85, 57);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img {
+  border: 3px solid rgb(229, 194, 194);
+  width: 300px;
+  height: 225px;
+}
+.havainnot {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 365px);
+  margin-top: 0;
+  color:blue;
+}
+.havainnot h2 {
+  text-align: center;
+  color:aliceblue;
+}
+
+.havainto {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 300px;
+  border-radius: 5px;
+  border: 5px solid rgb(190, 219, 199);
+  padding-bottom: 40px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.btn {
+  float: left;
+  margin-right: 10px;
+
+  padding: 7px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(46, 85, 57);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px rgb(58, 58, 58);
+}
+
+.btn:hover {
+  background-color: rgb(13, 56, 46);
+}
+
+.btn:active {
+  background-color: rgb(13, 56, 46);
+  box-shadow: 0 2px rgb(58, 58, 58);
+  transform: translateY(4px);
+}

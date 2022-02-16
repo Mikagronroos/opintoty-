@@ -1,0 +1,6 @@
+POST http://localhost:3001/api/login
+Content-Type: application/json Authorization: 
+
+{
+"username": "jaana", "password": "jaana", "passwordhash": "$2b$10$03P7o1yEQJcs/7PVb1xA9eT594cBZCZcLU2ilRadYxsVFjz8mJ5Ou"
+}

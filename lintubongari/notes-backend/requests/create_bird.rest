@@ -1,0 +1,6 @@
+POST http://localhost:3001/api/lintudb/havainto
+Content-Type: application/json Authentication: bearer
+
+{
+"laji": "Varis", "maara": "1", "kunta": "Joensuu", "paikka": "Kellotorni", "userId": "6082807ef9a5c92f189616c0", "lisatiedot": "Talvehtii"
+}
